@@ -7,6 +7,8 @@ body {
     color: white;
 }
 
+/* navigator styling */
+
 nav li {
     color:aliceblue;
     display: inline-block;
@@ -16,11 +18,6 @@ nav li {
 nav .head-image {
     height: 100px;
     width: 100px;
-}
-
-body img {
-    width: 300;
-    height: 300px;
 }
 
 nav a:hover {
@@ -41,6 +38,13 @@ nav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
+body img {
+    width: 300;
+    height: 300px;
+}
+
+/* next event page styling*/
 
 .next-event img {
     width: 500px;
@@ -64,10 +68,6 @@ nav li a {
 }
 .next-event p {
     text-align: center;
-}
-
-.tickets a{
-    color: white;
 }
 
 .register ul {
