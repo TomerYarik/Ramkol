@@ -1,0 +1,122 @@
+html {
+    background-image: url("./site_back.jpg");
+}
+
+body {
+    text-align: center;
+    color: white;
+}
+
+nav li {
+    color:aliceblue;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+nav .head-image {
+    height: 100px;
+    width: 100px;
+}
+
+body img {
+    width: 300;
+    height: 300px;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.next-event img {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.next-event {
+    display: flex;
+    flex-direction: column;
+}
+
+.next-event .date{
+    margin: 10px;
+    font-weight: 800;
+    font-size:xx-large;
+}
+
+.artists ul {
+    list-style-type: none;
+}
+.next-event p {
+    text-align: center;
+}
+
+.tickets a{
+    color: white;
+}
+
+.register ul {
+    list-style-type: none;
+}
+
+.contact a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.links img{
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.contact-info{
+    list-style-type: none;
+    display: flex;
+    text-align: right;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px; 
+    float: right;
+}
+
+input {
+    border-radius: 5px;
+}
+
+form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  label,
+  input {
+    /* In order to define widths */
+    display: inline-block;
+  }
+  
+  label {
+    width: 10%;
+    /* Positions the label text beside the input */
+    text-align: right;
+  }
