@@ -45,6 +45,13 @@ nav a:hover {
     background-color: #111;
 }
 
+.intro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+}
 
 /* next event page styling*/
 .next-event {
